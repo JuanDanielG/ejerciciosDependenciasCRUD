@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import TODO from '../components/vue/TODO.vue';
+---
+
+<Layout title="Welcome to Astro.">
+	<TODO client:load />
+</Layout>
+
